@@ -24,7 +24,7 @@ function MainContent() {
 						className="h-5 w-5 cursor-pointer"
 						onClick={() =>
 							window.open(
-								"https:github.com/nshulsingh3",
+								"https://www.github.com/nshulsingh3",
 								"_blank"
 							)
 						}
@@ -33,7 +33,7 @@ function MainContent() {
 						src={X}
 						className="h-5 w-5 cursor-pointer"
 						onClick={() =>
-							window.open("https:x.com/nshulsingh3", "_blank")
+							window.open("https://www.x.com/nshulsingh3", "_blank")
 						}
 					/>
 					<img
@@ -41,7 +41,7 @@ function MainContent() {
 						className="h-5 w-5 cursor-pointer"
 						onClick={() =>
 							window.open(
-								"https:lInkedin.com/in/anshul-singh03",
+								"https://www.lInkedin.com/in/anshul-singh03",
 								"_blank"
 							)
 						}
