@@ -12,6 +12,7 @@ export default function Footer() {
 		try {
 			const response = await fetch(functionUrl, {
 				method: "POST",
+				 mode: 'no-cors',
 				headers: {
 					"Content-Type": "application/json",
 				},
