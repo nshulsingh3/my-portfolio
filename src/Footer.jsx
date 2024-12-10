@@ -14,7 +14,6 @@ export default function Footer() {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
-					"Access-Control-Allow-Origin": "https://theanshulsingh.netlify.app",
 				},
 				body: JSON.stringify({
 					to: email,
