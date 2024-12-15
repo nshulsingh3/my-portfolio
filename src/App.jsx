@@ -25,15 +25,15 @@ function App() {
     >
       <nav className="top-0 bg-gradient-to-b from-cyan-100/[1] to-cyan-100/[0] sticky py-4 pb-10">
         <div className=" p-2 m-auto flex justify-between bg-white/[0.83] w-[95vw] md:w-[60vw] rounded-[36px] shadow-md items-center pl-3">
-          <div className="flex-1 hidden md:block"></div>
-          <button className="flex-1 hover:bg-white rounded-[36px] md:py-1.5 md:px-3">
+          {/* <div className="flex-1 hidden md:block"></div> */}
+          {/* <button className="flex-1 hover:bg-white rounded-[36px] md:py-1.5 md:px-3">
             Home
-          </button>
-          <button className="flex-1  md:hover:bg-white rounded-[36px]  md:py-1.5 md:px-3">
+          </button> */}
+          <button className="ml-4 text-center md:hover:bg-white rounded-[36px]  md:py-1.5 md:px-3">
             Blogs
           </button>
           <button
-            className="flex-1 flex gap-1 items-center justify-center md:hover:bg-white rounded-[36px]  md:py-1.5 md:px-3"
+            className="flex gap-1 items-center justify-center md:hover:bg-white rounded-[36px]  md:py-1.5 md:px-3"
             onClick={handleDownload}
           >
             Resume

@@ -77,8 +77,9 @@ export default function Footer() {
               Wake up!
             </button>
           </div>
-          <div className="text-sm  text-sky-700 mt-4">
-            {"© 2024 Anshul Singh"}
+          <div className="text-sm flex-col text-sky-700/[0.8] mt-6">
+            <div>{"Made with ❤️"}</div>
+            <div>{"© 2024 Anshul Singh"}</div>
           </div>
         </div>
       </footer>
