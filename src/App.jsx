@@ -29,7 +29,12 @@ function App() {
           {/* <button className="flex-1 hover:bg-white rounded-[36px] md:py-1.5 md:px-3">
             Home
           </button> */}
-          <button className="ml-4 text-center md:hover:bg-white rounded-[36px]  md:py-1.5 md:px-3">
+          <button
+            className="ml-4 text-center md:hover:bg-white rounded-[36px]  md:py-1.5 md:px-3"
+            onClick={() =>
+              window.open("https://blogitbyanshul.netlify.app/", "_blank")
+            }
+          >
             Blogs
           </button>
           <button
