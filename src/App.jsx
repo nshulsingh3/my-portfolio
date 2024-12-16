@@ -4,6 +4,7 @@ import WhatIDoSection from "./WhatIDoSection";
 import Rocket from "./assets/rocket.svg";
 import Download from "./assets/download.svg";
 import pdf from "./assets/AnshulSinghResume_3YearsExp.pdf";
+import Projects from "./Projects";
 
 function App() {
   const handleDownload = () => {
@@ -65,6 +66,7 @@ function App() {
       <div className="mt-2 md:mt-6">
         <MainContent />
         <WhatIDoSection />
+        <Projects />
         <Footer />
       </div>
     </div>
